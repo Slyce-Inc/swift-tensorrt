@@ -1,0 +1,6 @@
+module libnvinfer [system] [extern_c] {
+  header "shim.h"
+  link "nvinfer"
+  link "cudart"
+  export *
+}
