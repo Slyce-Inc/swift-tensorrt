@@ -1,7 +1,15 @@
 {
   "object": {
     "pins": [
-
+      {
+        "package": "libcuda",
+        "repositoryURL": "https://github.com/theia-ai/libCUDA.git",
+        "state": {
+          "branch": "master",
+          "revision": "8e4d7116466c9453a43bc65fbb7203b51e8efbb7",
+          "version": null
+        }
+      }
     ]
   },
   "version": 1

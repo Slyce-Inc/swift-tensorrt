@@ -1,4 +1,4 @@
-module libnvinfer [system] [extern_c] {
+module ClibTensorRT [extern_c] {
   header "shim.h"
   link "nvinfer"
   link "cudart"
