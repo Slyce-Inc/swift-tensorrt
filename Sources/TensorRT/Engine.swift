@@ -1,5 +1,5 @@
 import ClibTensorRT
-import libcuda
+import Clibcuda
 
 
 public struct Dimensions {

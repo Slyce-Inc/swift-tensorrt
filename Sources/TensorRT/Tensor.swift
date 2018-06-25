@@ -1,5 +1,5 @@
 import ClibTensorRT
-import libcuda
+import Clibcuda
 
 
 public class Tensor<T> where T:Numeric {
