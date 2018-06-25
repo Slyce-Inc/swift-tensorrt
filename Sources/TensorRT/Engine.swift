@@ -57,7 +57,7 @@ public class Engine {
     return result
   }()
 
-  func createExecutionContext() -> ExecutionContext? {
+  public func createExecutionContext() -> ExecutionContext? {
     guard let reference = Engine_createExecutionContext(self.reference) else {
       return nil
     }
