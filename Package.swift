@@ -6,7 +6,7 @@ let package = Package(
     name: "TensorRT",
     products: [ .library(name: "TensorRT", targets: ["TensorRT"]) ],
     dependencies: [
-        .package(url: "https://github.com/theia-ai/Clibcuda.git", .upToNextMinor(from: "9.0.0")),
+        .package(url: "git@githb.com:ilmco/Clibcuda.git", .upToNextMinor(from: "9.0.0")),
     ],
     targets: [
         .target(name: "Clibnvinfer", dependencies: []),
