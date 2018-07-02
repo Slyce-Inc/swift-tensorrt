@@ -5,9 +5,9 @@
         "package": "Clibcuda",
         "repositoryURL": "git@github.com:ilmco/Clibcuda.git",
         "state": {
-          "branch": "master",
-          "revision": "be65ba51fad079fcdc09290903095dbdc17e311c",
-          "version": null
+          "branch": null,
+          "revision": "353b1a118831c0710d7c4af5bb0ede7512f2d1c4",
+          "version": "9.0.0"
         }
       }
     ]
