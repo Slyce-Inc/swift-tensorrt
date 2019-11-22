@@ -6,11 +6,11 @@ let package = Package(
     name: "TensorRT",
     products: [ .library(name: "TensorRT", targets: ["TensorRT"]) ],
     dependencies: [
-        .package(url: "git@github.com:ilmco/Clibcuda.git", .upToNextMinor(from: "9.0.0")),
+        .package(url: "git@github.com:ilmco/Clibcuda.git", .upToNextMinor(from: "1.0.0")),
     ],
     targets: [
         .target(name: "Clibnvinfer", dependencies: []),
-        .target(name: "ClibTensorRT", dependencies: ["Clibnvinfer", "Clibcuda"]),
+        .target(name: "ClibTensorRT", dependencies: ["Clibnvinfer", "Clibcudart"]),
         .target(name: "TensorRT", dependencies: ["ClibTensorRT"]),
     ],
     cxxLanguageStandard: .cxx11
