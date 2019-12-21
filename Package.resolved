@@ -3,11 +3,11 @@
     "pins": [
       {
         "package": "CUDA",
-        "repositoryURL": "http://github.com/Slyce-Inc/swift-cuda.git",
+        "repositoryURL": "https://github.com/Slyce-Inc/swift-cuda.git",
         "state": {
           "branch": null,
-          "revision": "9e81741a568317109d8d3c86b9a4cad49996c929",
-          "version": "1.0.1"
+          "revision": "fc1af55bfb0d1915ad5e2ab98309cab291c1bd7d",
+          "version": "1.0.2"
         }
       }
     ]

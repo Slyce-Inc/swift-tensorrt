@@ -6,7 +6,7 @@ let package = Package(
     name: "TensorRT",
     products: [ .library(name: "TensorRT", targets: ["TensorRT"]) ],
     dependencies: [
-        .package(url: "http://github.com/Slyce-Inc/swift-cuda.git", .upToNextMinor(from: "1.0.0")),
+        .package(url: "https://github.com/Slyce-Inc/swift-cuda.git", .upToNextMinor(from: "1.0.0")),
     ],
     targets: [
         .target(name: "Clibnvinfer", dependencies: []),
