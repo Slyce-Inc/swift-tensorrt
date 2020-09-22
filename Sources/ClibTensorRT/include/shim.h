@@ -22,6 +22,8 @@ extern int Engine_getBindingDimensions(const void* engine, int index, TensorRT_D
 extern const void* Engine_createExecutionContext(const void* engine);
 
 extern void ExecutionContext_destroy(const void* executionContext);
+extern void ExecutionContext_setDebugSync(const void* executionContext, bool value);
+extern bool ExecutionContext_getDebugSync(const void* executionContext);
 extern bool ExecutionContext_execute(const void* executionContext, int batchSize, void** bindings);
 
 #ifdef __cplusplus
